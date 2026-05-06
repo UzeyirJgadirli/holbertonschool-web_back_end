@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
-"""Module for adding two floats."""
+"""Module that defines a type-annotated add function."""
 
 
 def add(a: float, b: float) -> float:
-    """Returns the sum of two floats."""
+    """Adds two float numbers and returns the result."""
     return a + b
